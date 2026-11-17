@@ -1,0 +1,27 @@
+# Vim / editor
+*.swp
+*.swo
+*~
+.tags
+tags
+
+# Build output
+*.o
+*.a
+*.so
+*.out
+*.dSYM/
+build/
+bin/
+
+# Compiled programs (add one line for each new program)
+fdump/fdump
+
+# Large files (GPT-2 weights, datasets)
+data/
+models/
+*.pt
+*.safetensors
+
+# OS
+.DS_Store
